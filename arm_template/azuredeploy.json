@@ -70,7 +70,7 @@
     }
   },
   "variables": {
-    "templateBaseUrl": "[concat('https://raw.githubusercontent.com/', parameters('githubAccount'), '/azurearc/', parameters('githubBranch')')]",
+    "templateBaseUrl": "[concat('https://raw.githubusercontent.com/', parameters('githubAccount'), '/azurearc/', parameters('githubBranch'))]",
     "clientVmTemplateUrl": "[uri(variables('templateBaseUrl'), 'arm_template/clientVm.json')]",
     "mgmtTemplateUrl": "[uri(variables('templateBaseUrl'), 'arm_template/mgmtArtifacts.json')]"
   },
