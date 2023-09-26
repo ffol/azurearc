@@ -45,7 +45,7 @@
       "metadata": {
         "description": "Target GitHub account"
       },
-      "defaultValue": "microsoft"
+      "defaultValue": "ffol"
     },
     "githubBranch": {
       "type": "string",
@@ -64,13 +64,13 @@
     "githubUser": {
       "type": "string",
       "metadata": {
-        "description": "User's github account where they have forked https://github.com/microsoft/azure-arc-jumpstart-apps"
+        "description": "User's github account where they have forked https://github.com/ffol"
       },
-      "defaultValue": "microsoft"
+      "defaultValue": "ffol"
     }
   },
   "variables": {
-    "templateBaseUrl": "[concat('https://raw.githubusercontent.com/', parameters('githubAccount'), '/azurearc/', parameters('githubBranch'))]",
+    "templateBaseUrl": "[concat('https://raw.githubusercontent.com/', parameters('githubAccount'), '/azurearc/', parameters('githubBranch'),'/')]",
     "clientVmTemplateUrl": "[uri(variables('templateBaseUrl'), 'arm_template/clientVm.json')]",
     "mgmtTemplateUrl": "[uri(variables('templateBaseUrl'), 'arm_template/mgmtArtifacts.json')]"
   },
