@@ -108,7 +108,7 @@ Start-VM -Name $JSLUWinSQL03
 Write-Header "Creating VM Credentials"
 # Hard-coded username and password for the nested VMs
 $nestedWindowsUsername = "Administrator"
-$nestedWindowsPassword = "ArcDemo123!"
+$nestedWindowsPassword = "ArcDemo123!!"
 
 # Create Windows credential object
 $secWindowsPassword = ConvertTo-SecureString $nestedWindowsPassword -AsPlainText -Force
