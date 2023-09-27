@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "spnClientId": {
+            "value": "041ecf78-d59e-4c8e-837f-76faa94bd506"
+        },
+        "spnClientSecret": {
+            "value": "hYb8Q~y_2pvdTRjh2mQCeFl9tJNMYMM38lncednO"
+        },
+        "spnTenantId": {
+            "value": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+        },
+        "windowsAdminUsername": {
+            "value": "arclu23"
+        },
+        "windowsAdminPassword": {
+            "value": "dsk83@WsaBH$4342S!"
+        },
+        "logAnalyticsWorkspaceName": {
+            "value": "arcsqllevelup"
+        },
+        "deployBastion": {
+            "value": false
+        }
+    }
+}
