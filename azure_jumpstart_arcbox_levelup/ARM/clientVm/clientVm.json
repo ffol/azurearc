@@ -176,7 +176,7 @@
             ],
             "properties": {
                 "hardwareProfile": {
-                    "vmSize": "B8as_v2"
+                    "vmSize": "Standard_B8as_v2"
                 },
                 "storageProfile": {
                     "osDisk": {
